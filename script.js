@@ -1,15 +1,15 @@
-var user = prompt ("Pick a number between 1-100");
-switch(user) {
-	case 1:
-}
-for(i = 1; i < 101; i++){
-if(i % 3 === 0 && i % 5 === 0){
+var number = prompt("Pick a number to FizzBuzz up to!");
+for (i=1; i<=number; i++) {
+  if (i%15===0) {
     console.log("FizzBuzz");
-}else if(i % 3 === 0){
+  }
+  else if (i%3===0) {
     console.log("Fizz");
-}else if(i % 5 === 0){
+  }
+  else if (i%5===0) {
     console.log("Buzz");
-}else{
+  }
+  else {
     console.log(i);
-}
+  }
 }
