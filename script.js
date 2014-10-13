@@ -1,4 +1,4 @@
-var number = prompt("Pick a number to FizzBuzz up to!");
+var number = prompt("Pick a number to see if you Fizz Buzz");
 for (i=1; i<=number; i++) {
   if (i%15===0) {
     console.log("FizzBuzz");
